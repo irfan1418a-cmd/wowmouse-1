@@ -1,0 +1,38 @@
+WOW MOUSE - EASY GITHUB BUILD
+About 10 minutes. No Android Studio needed. You only need a browser and a free GitHub account.
+
+1. Go to github.com and sign up (free). Confirm your email.
+
+2. Click the + (top right), then "New repository".
+   Name it: wowmouse     Choose: Private     Click "Create repository".
+
+3. Click "uploading an existing file".
+   Drag in EVERYTHING that is inside this folder (select all the files and folders
+   inside it, not the folder itself). Click "Commit changes".
+
+4. Add the build file by hand (hidden folders often fail to upload).
+   If you can already see a folder called ".github" in your repository, skip this step.
+   - Click "Add file", then "Create new file".
+   - In the name box type exactly:   .github/workflows/build.yml
+     (when you type each / the box turns it into a folder)
+   - Open the file PASTE-THIS-build.yml.txt, copy ALL of it, paste it in the big box.
+   - Click "Commit changes".
+
+5. Click the "Actions" tab.
+   If it asks, click "I understand my workflows, go ahead and enable them".
+   The build starts by itself and takes about 5 minutes. Wait for a green check.
+
+6. Get the APK (two ways):
+   - On the main page of the repository click "Releases" (right side), open the newest
+     one, and click wowmouse.apk under "Assets".
+   - Or click the finished run, scroll to "Artifacts", download "wowmouse-apk", unzip it.
+
+7. Put wowmouse.apk on the watch (for example Google Drive: upload it on your phone,
+   then on the watch tap the 3 dots next to it and choose Download, then open it from Files).
+   The watch must be online and must allow "install unknown apps".
+
+8. On the watch: open Wow Mouse, allow Bluetooth, tap "Make discoverable", then pair the
+   watch from your computer's Bluetooth settings. Tap "Connect to device" if it does not connect.
+
+IF THE BUILD FAILS (red X):
+Click the failed run, click the step with the red X, copy the error text and send it to Claude.
